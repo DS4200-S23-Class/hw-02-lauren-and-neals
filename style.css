@@ -2,7 +2,7 @@ body {
 	font-family: Arial;
 }
 
-.info {
+h1, h2 {
 	text-align: center;
 }
 
@@ -16,8 +16,31 @@ tr {
 	border-bottom: 1px solid #ddd;
 }
 
-
 th {
 	background: lightblue;
+}
+
+.info {
+	text-align: left;
+}
+
+#task-abstraction {
+	text-align: center;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.flexbox {
+	flex-direction: row
+	align-items: center;
+	display: flex;
+	text-align: left;
+}
+
+.flexbox > div {
+	width: 50%;
 }
 
