@@ -44,3 +44,17 @@ img {
 	width: 50%;
 }
 
+svg {
+	padding: 5%;
+}
+
+rect {
+	border: 5px solid black;
+	fill: royalblue;
+}
+
+circle {
+	fill: royalblue;
+	opacity: 50%;
+}
+
