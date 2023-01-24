@@ -49,12 +49,24 @@ svg {
 }
 
 rect {
-	border: 5px solid black;
+	stroke: black;
+	stroke-width: 5px;
 	fill: royalblue;
 }
 
 circle {
 	fill: royalblue;
 	opacity: 50%;
+	overflow: visible;
+}
+
+rect:hover {
+	fill: lightpink;
+}
+
+circle:hover {
+	overflow: visible;
+	stroke-width: 3px;
+	stroke: black;
 }
 
