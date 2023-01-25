@@ -48,28 +48,46 @@
 			<h3>UFO</h3>
 				<ul>
 	                <li>Row data type: Item </li>
-	                <li>datetime: attribute</li>
+	                <li>datetime: Attribute</li>
 	                <ul>
-	                	<li>quantitative</li>
+	                	<li>Ordered - Sequential</li>
 	               	</ul>
-	                <li>city: </li>
-	                <li>state: </li>
-	                <li>country: </li>
-	                <li>shape: </li>
-	                <li>duration: </li>
+	                <li>city: Attribute</li>
+	                <ul>
+	                	<li>Categorical</li>
+	               	</ul>
+	                <li>state: Attribute </li>
+	                <ul>
+	                	<li>Categorical</li>
+	               	</ul>
+	                <li>country: Attribute</li>
+	                <ul>
+	                	<li>Categorical</li>
+	               	</ul>
+	                <li>shape: Attribute</li>
+	                <ul>
+	                	<li>Categorical</li>
+	               	</ul>
+	                <li>duration: Attribute</li>
+	                <ul>
+	                	<li>Quantitative</li>
+	               	</ul>
            		</ul>
 			<h3>Airports</h3>
 				<ul>
-	                <li>Row: Item </li>
-	                <li>Airport_name: </li>
-	                <li>Latitude: </li>
-	                <li>Longitude: </li>
+	                <li>Row data type: Item </li>
+	                <li>Airport_name: Attribute</li>
+	                <ul>
+	                	<li>Categorical</li>
+	               	</ul>
+	                <li>Latitude: Position</li>
+	                <li>Longitude: Position</li>
            		</ul>
 
 			<h3>Google-Web</h3>
 				<ul>
 	                <li>Row data type: Item </li>
-	                <li></li>
+	                <li>Column data type: Link </li>
            		</ul>
 	</div>
 
@@ -78,17 +96,26 @@
 		<div class="flexbox">
 			<div> 
 				<img src=img/vis1.png> 
-				<p>High-level task: </p>
-				<p>Medium-level task: </p>
-				<p>Low-level task: </p>
-				<p>Target: </p>
+				<p>High-level task: Consume -> Present</p>
+				<li>Meant to display the daily maximum temperatures over a number of years </li>
+				<p>Medium-level task: Search -> Lookup </p>
+				<li>The visualization highlights known recent dates using color and a label</li>
+
+				<p>Low-level task: Query -> Indentify</p>
+				<li>The highlighted points are the main points to focus on</li>
+				<p>Target: All Data -> Outlier </p>
+				<li>The highlighted points indicated higher maximum temperatures than observed in past years</li>
 			</div>
 			<div>
 				<img src=img/vis2.png> 
-				<p>High-level task: </p>
-				<p>Medium-level task: </p>
-				<p>Low-level task: </p>
-				<p>Target: </p>
+				<p>High-level task: Consume -> Present</p>
+				<li>Meant to show how many times per year the daily average temp was 20 degrees Farenheit above normal</li>
+				<p>Medium-level task: Search -> Browse</p>
+				<li>Observing the available data to potentially gauge a pattern</li>
+				<p>Low-level task: Summarize -> Compare</p>
+				<li>Counts above each bar are labeled for comparison</li>
+				<p>Target: Attributes -> Distribution</p>
+				<li>Highlights how in more recent years, temperatures have risen above normal multiple times compared to previous years</li>
 			</div>
 		</div> 
 	</div>
