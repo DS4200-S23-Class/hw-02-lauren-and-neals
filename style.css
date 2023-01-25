@@ -44,6 +44,10 @@ img {
 	width: 50%;
 }
 
+.flexbox {
+	color: royalblue;
+}
+
 svg {
 	padding: 5%;
 }
@@ -68,5 +72,9 @@ circle:hover {
 	overflow: visible;
 	stroke-width: 3px;
 	stroke: black;
+}
+
+#ack-header {
+	text-align: center;
 }
 
